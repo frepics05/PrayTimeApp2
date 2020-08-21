@@ -14,14 +14,14 @@ class ListJadwal extends StatelessWidget {
           padding: EdgeInsets.all(16.0),
           height: 70.0,
           decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10.0),
+              borderRadius: BorderRadius.circular(25.0),
               boxShadow: [BoxShadow(color: Colors.grey, blurRadius: 5.0)],
               gradient: LinearGradient(
                   begin: Alignment.topRight,
                   end: Alignment.bottomLeft,
-                  colors: [Color(0xff808080), Color(0xff3fada8)])),
+                  colors: [Color(0xff2980B9), Color(0xff6DD5FA)])),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.spaceAround ,
             children: <Widget>[
               Text(waktu, style: styleListText),
               Text(jam, style: styleListText),

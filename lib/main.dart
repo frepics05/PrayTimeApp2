@@ -40,8 +40,9 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
         Container(
           height: MediaQuery.of(context).size.width - 120,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.only(bottomRight: Radius.circular(30.0),
-            bottomLeft: Radius.circular(30.0)),
+            borderRadius: BorderRadius.only(
+            bottomRight: Radius.circular(25.0),
+            bottomLeft: Radius.circular(25.0)),
             boxShadow:[
               BoxShadow(
                 blurRadius: 6.0,
@@ -51,7 +52,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
             ],
             image: DecorationImage(
                 fit: BoxFit.cover,
-                image: NetworkImage("https://i.pinimg.com/originals/f6/4a/36/f64a368af3e8fd29a1b6285f3915c7d4.jpg")
+                image: NetworkImage("https://www.thenational.ae/image/policy:1.860575:1559198783/AR_1205_Sharjah_Mosque-40.jpg?=87739a3&w=1136&=ec52ab9")
             )
           ),
         ),
